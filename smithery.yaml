@@ -1,0 +1,7 @@
+name: genpark-agent-state-snapshot-time-travel-skill
+description: Agent conversation state snapshotting and time-travel rollback engine pruning divergent hallucination paths
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
